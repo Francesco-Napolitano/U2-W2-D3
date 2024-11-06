@@ -1,0 +1,33 @@
+
+$sm : 8px;
+$normal : 16px;
+$md : 24px;
+$lg : 32px;
+$xl : 48px;
+$xxl : 64px;
+
+
+
+$spacing-sizes: block, inline ;
+$spacing-values: sm, normal, md,lg, xl, xxl; 
+
+.col{
+   padding: 1.4em;
+}
+
+ @each $sizes in $spacing-sizes {
+   @each $value in $spacing-values {    
+      .padding-#{$sizes} {
+        padding: $value;
+      }
+      .margin-#{$sizes}{
+        margin: $value;
+      }
+    }
+   }
+
+
+
+  // .margin-sm .margin-normal .margin-lg .margin-xl
+
+ 

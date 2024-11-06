@@ -1,0 +1,15 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@mixin animation () {
+   animation: fadeIn 5s;
+}
+  
+
+main{
+   >div:nth-of-type(1){
+      @include animation();
+   }
+}

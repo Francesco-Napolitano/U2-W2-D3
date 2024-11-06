@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  color: #f4f4f4;
+}
+
+.one {
+  color: #0e6cff;
+}
+
+.two {
+  color: #ff8700;
+}
+
+.three {
+  color: #4caf4c;
+}
+
+main > div:nth-of-type(1) {
+  background-color: #640fc5;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.col {
+  padding: 1.4em;
+}
+
+.padding-block {
+  padding: sm;
+}
+
+.margin-block {
+  margin: sm;
+}
+
+.padding-block {
+  padding: normal;
+}
+
+.margin-block {
+  margin: normal;
+}
+
+.padding-block {
+  padding: md;
+}
+
+.margin-block {
+  margin: md;
+}
+
+.padding-block {
+  padding: lg;
+}
+
+.margin-block {
+  margin: lg;
+}
+
+.padding-block {
+  padding: xl;
+}
+
+.margin-block {
+  margin: xl;
+}
+
+.padding-block {
+  padding: xxl;
+}
+
+.margin-block {
+  margin: xxl;
+}
+
+.padding-inline {
+  padding: sm;
+}
+
+.margin-inline {
+  margin: sm;
+}
+
+.padding-inline {
+  padding: normal;
+}
+
+.margin-inline {
+  margin: normal;
+}
+
+.padding-inline {
+  padding: md;
+}
+
+.margin-inline {
+  margin: md;
+}
+
+.padding-inline {
+  padding: lg;
+}
+
+.margin-inline {
+  margin: lg;
+}
+
+.padding-inline {
+  padding: xl;
+}
+
+.margin-inline {
+  margin: xl;
+}
+
+.padding-inline {
+  padding: xxl;
+}
+
+.margin-inline {
+  margin: xxl;
+}
+
+.-one {
+  background-color: #0e6cff;
+}
+
+.-two {
+  background-color: #ff8700;
+}
+
+.-three {
+  background-color: #4caf50;
+}
+
+h1 {
+  border-radius: 3em;
+  box-shadow: 0 0 0 2px #fff;
+  border: 1px solid black;
+}
+
+.col img {
+  border-radius: 3em;
+  box-shadow: 0 0 0 2px #fff;
+  border: 1px solid black;
+  box-shadow: 0 1px 0 1px #fff;
+  border: 0;
+}
+
+.container div {
+  display: flex;
+  flex-basis: 50%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main > div:nth-of-type(1) {
+  animation: fadeIn 5s;
+}/*# sourceMappingURL=praticaS6-L3.css.map */

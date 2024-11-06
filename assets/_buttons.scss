@@ -1,0 +1,11 @@
+$button-colors: (
+  one: #0e6cff,
+  two: #ff8700,
+  three: #4caf50
+);
+
+@each $button, $color in $button-colors {
+  .-#{$button} {
+    background-color: $color;
+  }
+}

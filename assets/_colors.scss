@@ -1,0 +1,22 @@
+body{
+   color: #f4f4f4;
+}
+
+
+.one {
+   color: #0e6cff;
+}
+
+.two {
+   color: #ff8700;
+}
+
+.three {
+   color: #4caf4c;
+}
+
+$bg-hero: #640fc5;
+
+main > div:nth-of-type(1){
+   background-color: $bg-hero;
+}

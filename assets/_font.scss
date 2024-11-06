@@ -1,0 +1,20 @@
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+$font-sm: 0.8rem;
+$font-md: 1.3rem;
+$font-lg: 1.6rem;
+
+@mixin title-big() {
+   font-size: $font-lg;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 10px;
+   color: red;
+}
+
+h1 {
+   @include title-big();
+}
